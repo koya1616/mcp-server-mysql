@@ -1,0 +1,27 @@
+{
+  "name": "mcp-server-mysql",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-server-mysql": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc && shx chmod +x dist/*.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.8.0",
+    "@types/tunnel-ssh": "^5.0.4",
+    "dotenv": "^16.4.7",
+    "mysql2": "^3.14.0",
+    "node-sql-parser": "^5.3.8",
+    "tunnel-ssh": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "shx": "^0.4.0",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.2"
+  }
+}
