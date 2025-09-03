@@ -177,7 +177,7 @@ const config = {
     connectionTypes: ['stdio'],
   },
   ssh: {
-    enabled: "true",
+    enabled: true,
     host: process.env.SSH_HOST || '',
     port: 22,
     username: process.env.SSH_USER || '',
